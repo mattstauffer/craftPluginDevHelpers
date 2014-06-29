@@ -8,3 +8,6 @@
 
 ### dd()
 Die and Dump. Via [Taylor Otwell](http://laravel.com/docs/helpers), the man, the mystery, the legend.
+
+### craftdd()
+Die and Dump, using Craft::dump()
