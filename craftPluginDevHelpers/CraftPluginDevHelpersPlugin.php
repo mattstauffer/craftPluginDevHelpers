@@ -24,3 +24,7 @@ class CraftPluginDevHelpersPlugin extends BasePlugin
 		return 'http://ninetwelve.co/';
 	}
 }
+
+foreach (glob(__DIR__ . "/helpers/*.php") as $filename) {
+    include_once $filename;
+}
