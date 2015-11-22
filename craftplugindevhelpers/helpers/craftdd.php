@@ -6,7 +6,7 @@ if ( ! function_exists('craftdd')) {
      * @param $target mixed
      * @return void
      */
-    function craftdd ($target) {
+    function craftdd($target) {
         \CVarDumper::dump($target, 10, true);
 
         die;

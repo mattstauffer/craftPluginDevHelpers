@@ -11,17 +11,17 @@ class CraftPluginDevHelpersPlugin extends BasePlugin
 
 	public function getVersion()
 	{
-		return '0.1.0';
+		return '0.2.0';
 	}
 
 	public function getDeveloper()
 	{
-		return 'ninetwelve (Matt Stauffer)';
+		return 'Matt Stauffer';
 	}
 
 	public function getDeveloperUrl()
 	{
-		return 'http://ninetwelve.co/';
+		return 'http://tighten.co/';
 	}
 }
 

@@ -11,3 +11,10 @@ Die and Dump. Via [Taylor Otwell](http://laravel.com/docs/helpers), the man, the
 
 ### craftdd()
 Die and Dump, using Craft::dump()
+
+### env()
+Wrap `getenv()` with Laravel's `env()` helper, which converts boolean strings to real booleans and takes an optional second parameter that is the default. E.g.
+
+```php
+$shouldDoThing = env('SHOULD_DO_THING', false);
+```
