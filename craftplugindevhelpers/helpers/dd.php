@@ -6,14 +6,14 @@ if ( ! function_exists('dd')) {
      * @param  dynamic  mixed
      * @return void
      */
-    function dd() {
-		array_map(
-			function($x) {
-				var_dump($x);
-			},
-			func_get_args()
-		);
+    function dd () {
+        array_map(
+            function ($x) {
+                var_dump($x);
+            },
+            func_get_args()
+        );
 
-		die;
+        die;
     }
 }
